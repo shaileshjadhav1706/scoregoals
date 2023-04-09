@@ -1,0 +1,17 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.MaterialUI {
+    display: flex;
+    flex-direction: column;
+}
+
+.MaterialUI>div {
+    margin-top: 16px;
+}
+
+.MaterialUI>div:first-child {
+    margin-top: 0px;
+}
