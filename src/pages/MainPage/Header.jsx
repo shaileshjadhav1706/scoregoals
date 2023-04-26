@@ -58,6 +58,9 @@ const Header = (props) => {
   ];
 
 
+  const handleLogo = () => {
+    history.push('/')
+  }
   const container = typeof window !== 'undefined' ? () => window().document.body : undefined;
 
 
@@ -107,7 +110,7 @@ const Header = (props) => {
 
   return (
     // <div className='sticky top-0 bg-gradient-to-r from-green-700 to-green-500 w-full z-1000'>
-    <div className='sticky top-0 bg-navbar-texture bg-center bg-origin-content w-full z-1000'>
+    <div className='sticky top-0 bg-navbar-texture bg-center bg-origin-content w-full z-1000 bg-yellow-200 shadow-lg shadow-yellow-500/90'>
 
       <Toolbar>
         <IconButton
@@ -122,21 +125,23 @@ const Header = (props) => {
 
         {/* Logo on left */}
         <Typography
+          onClick={handleLogo}
           variant="h6"
           component="div"
-          sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+          sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', cursor: 'pointer' } }}
         >
           Scoregoals
         </Typography>
 
+
         {/* menuitems on navbar */}
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <div className='flex items-center'>
-            <div className='text-white font-bold uppercase px-2 cursor-pointer text-sm' onClick={() => history.push('/why-us')}>Why Us</div>
+            <div className='text-white hover:text-yellow-300 font-bold uppercase px-2 cursor-pointer text-sm hover:underline decoration-yellow-300  underline-offset-4' onClick={() => history.push('/why-us')}>Why Us</div>
 
             {navItems.map((item,) => (
-              <Button key={item.menu} sx={{ color: '#fff' }} onClick={() => handleMenu(item)}>
-                <span className='font-bold'>{item.menu}</span>
+              <Button key={item.menu} sx={{ color: '#fff' }} onClick={() => handleMenu(item)} >
+                <span className='font-bold decoration-yellow-300  hover:text-yellow-300 hover:underline underline-offset-4'>{item.menu}</span>
               </Button>
             ))}
 

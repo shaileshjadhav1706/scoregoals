@@ -30,13 +30,13 @@ export default function App() {
                     </div>
                 </form>
                 <div className="flex flex-col justify-start flex-1 mt-10">
-                    <Typography variant="h6">Coaching Address</Typography>
+                    <h6 className="font-bold text-xl">Coaching Address</h6>
                     <div className="mt-10">
-                        <Typography >Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Quia, soluta facilis corporis laborum dolor eius saepe inventore consectetur ipsa,
+                        <Typography>
+                            ACRES CLUB :- 411-B, Hemu Kalani Marg, Sindhi Society, Chembur, Mumbai, Maharashtra 400071
                         </Typography>
                         <p>
-                            Reach us at <a href="tel:123-456-7890">123-456-7890</a>
+                            Reach us at <a href="tel:123-456-7890" className="text-sky-600 underline">123-456-7890</a>
                         </p>
                     </div>
                 </div>

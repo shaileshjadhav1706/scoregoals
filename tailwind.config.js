@@ -13,8 +13,8 @@ module.exports = {
       },
       backgroundImage: {
         'navbar-texture': "url('../src/assets/ball.png')",
-        'cheer': "url('../src/assets/crowd.jpg')",
-
+        'crowd': "url('../src/assets/crowd.jpg')",
+        'ground': "url('../src/assets/ground.jpeg')"
       }
     },
   },

@@ -21,13 +21,13 @@ function BannerComponent() {
 
     return (
 
-        <div>
+        <div >
             {/* Main content */}
 
             <Carousel
                 swipe
                 indicators
-                autoPlay={true}
+                autoPlay={false}
                 stopAutoPlayOnHover={true}
 
                 cycleNavigation={true}
@@ -38,7 +38,7 @@ function BannerComponent() {
                 {
                     items.map((item, index) => {
                         return (
-                            <div style={{ padding: '20px 0px', height: '700px' }} key={index}>
+                            <div style={{ height: '700px' }} key={index}>
                                 <img src={item.imageUrl} className="w-full h-full" />
                             </div>
                         )
