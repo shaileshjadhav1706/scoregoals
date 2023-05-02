@@ -6,6 +6,21 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const WhyUs = () => {
+    const bannerItems = [
+        {
+            imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683023248/WhyUS/IMG_1424_smf7ee__2_ea5ofg.jpg',
+            mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683023248/WhyUS/IMG_1424_smf7ee__2_ea5ofg.jpg'
+        },
+        {
+            imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683023564/WhyUS/IMG_2553_1_nfwxpg.jpg',
+            mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683023564/WhyUS/IMG_2553_1_nfwxpg.jpg'
+        },
+        {
+            imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683021910/WhyUS/IMG_3291_ayl9s7.jpg',
+            mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683021910/WhyUS/IMG_3291_ayl9s7.jpg'
+        }
+
+    ]
     return (
         <>
             <div className='pb-10'>
@@ -13,7 +28,8 @@ const WhyUs = () => {
                 <Header />
 
                 {/* banner */}
-                <BannerComponent />
+                <BannerComponent images={bannerItems} />
+
             </div>
             <footer className=' w-full bg-black bottom-0'>
 

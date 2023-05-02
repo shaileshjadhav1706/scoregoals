@@ -2,7 +2,7 @@ import React from 'react'
 import ImageGallery from './LightGallery';
 import { Tabs, Tab, Typography, Box } from '@mui/material';
 import Heading from '../../../components/heading'
-import { images, imageCat2, imageCat3 } from "./images";
+import { training, inhouseTournaments, otherTournaments } from "./images";
 
 
 const Gallery = () => {
@@ -47,19 +47,19 @@ const Gallery = () => {
             </div>
             <Box sx={{ borderBottom: 1, borderColor: 'divider', display: 'flex', justifyContent: 'center' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
-                    <Tab label="Item Three" {...a11yProps(2)} />
+                    <Tab label="Training" {...a11yProps(0)} />
+                    <Tab label="Inhouse tournaments" {...a11yProps(1)} />
+                    <Tab label="Other tournaments" {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-                <ImageGallery images={images} />
+                <ImageGallery images={training} />
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <ImageGallery images={imageCat2} />
+                <ImageGallery images={inhouseTournaments} />
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <ImageGallery images={imageCat3} />
+                <ImageGallery images={otherTournaments} />
             </TabPanel>
 
 

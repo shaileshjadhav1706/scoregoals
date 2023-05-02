@@ -16,6 +16,34 @@ import AboutUsPage from './About'
 
 export default function DrawerAppBar(props) {
 
+  const bannerItems = [
+    {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683015445/bannerImages/b4.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683015445/bannerImages/b4.jpg'
+    },
+
+    {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683014667/bannerImages/b2.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683014667/bannerImages/b2.jpg'
+
+    },
+    {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683017841/bannerImages/b1.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683017841/bannerImages/b1.jpg'
+    },
+    {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683014980/bannerImages/b3.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683014980/bannerImages/b3.jpg'
+    },
+
+    {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683015619/bannerImages/b5.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683015619/bannerImages/b5.jpg'
+    }, {
+      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683016705/bannerImages/b6.jpg',
+      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683016705/bannerImages/b6.jpg'
+    }
+  ]
   return (
     <>
       <div className='pb-10'>
@@ -24,7 +52,7 @@ export default function DrawerAppBar(props) {
         <Header />
 
         {/* banner */}
-        <BannerComponent />
+        <BannerComponent images={bannerItems} />
 
         {/* <Toolbar /> */}
         <div className='px-9 lg:mx-0 lg:px-40 py-10 lg:my-20 bg-lime-200'>
@@ -71,7 +99,7 @@ export default function DrawerAppBar(props) {
             It is never too late!  <span className='ml-2 uppercase'>Register yourselves today</span>
           </div>
           <div className='mt-10 m-auto lg:m-0'>
-            <Button variant="contained" size='large' color="success" href='https://forms.gle/P9LirarxF2NjjAAYA'>Join Now</Button>
+            <Button variant="contained" size='large' color="success" target="_blank" href='https://forms.gle/dxuAhwdiebbZtTbX7'>Join Now</Button>
           </div>
         </div>
 

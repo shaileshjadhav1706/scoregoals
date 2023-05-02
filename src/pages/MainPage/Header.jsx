@@ -27,10 +27,6 @@ const Header = (props) => {
     menu: 'About',
     link: '#about'
   },
-  // {
-  //   menu: 'Why Us',
-  //   page: '/why-us'
-  // },
   {
     menu: 'Programs',
     link: '#programs'
@@ -49,12 +45,9 @@ const Header = (props) => {
   },
   {
     menu: 'Contact Us',
-    link: '#contact'
+    link: '#contactUsForm'
   },
-    // {
-    //   menu: 'Register',
-    //   link: '#register'
-    // }
+
   ];
 
 
@@ -72,14 +65,20 @@ const Header = (props) => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2 }} onClick={() => history.push('/')}>
         Scoregoals
       </Typography>
       <Divider />
+      {/* <Typography onClick={() => history.push('/why-us')}>Register</Typography> */}
+      <Typography>
+        <a className='px-1 py-1 bg-white rounded-md my-8' target="_blank" href='https://forms.gle/dxuAhwdiebbZtTbX7' type="button" rel="noreferrer">
+          <span >Register</span>
+        </a>
+      </Typography>
       <Typography onClick={() => history.push('/why-us')}>Why Us</Typography>
       <List>
         {navItems.map((item, index) => (
-          <ListItem key={index} component="a" href={`#${item.link}`}>
+          <ListItem key={index} component="a" href={`/#${item.link}`}>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item.menu} />
             </ListItemButton>
@@ -145,7 +144,7 @@ const Header = (props) => {
               </Button>
             ))}
 
-            <a className='px-1 py-1 bg-white rounded-md' href='https://forms.gle/P9LirarxF2NjjAAYA' type="button">
+            <a className='px-1 py-1 bg-white rounded-md' target="_blank" href='https://forms.gle/dxuAhwdiebbZtTbX7' type="button" rel="noreferrer">
               <span className=' text-green-600 font-bold text-sm uppercase px-2 cursor-pointer'>Register</span>
             </a>
 

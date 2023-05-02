@@ -1,23 +1,19 @@
 import Carousel from 'react-material-ui-carousel'
+import useBreakpoint from '../../hooks/useBreakpoint'
 
 
-function BannerComponent() {
+function BannerComponent({ images }) {
+    const { isMobile } = useBreakpoint()
 
-    var items = [
-        {
-            imageUrl: 'https://picsum.photos/1300/300'
-        },
-        {
-            imageUrl: 'https://picsum.photos/seed/picsum/1300/300'
-        },
-        {
-            imageUrl: 'https://picsum.photos/seed/picsum/1300/300'
-        },
-        {
-            imageUrl: 'https://picsum.photos/seed/picsum/1300/300'
+    console.log("imageskk--", images);
+
+    const getHeight = () => {
+        if (!isMobile) {
+            return '750px'
         }
-    ]
 
+        return '600px'
+    }
 
     return (
 
@@ -36,10 +32,11 @@ function BannerComponent() {
                 navButtonsAlwaysVisible
             >
                 {
-                    items.map((item, index) => {
+                    images.map((item, index) => {
                         return (
-                            <div style={{ height: '700px' }} key={index}>
-                                <img src={item.imageUrl} className="w-full h-full" />
+                            <div style={{ height: getHeight() }} key={index}>
+                                {!isMobile && <img src={item.imageUrl} className="w-full h-full" alt="bannerImg" />}
+                                {isMobile && <img src={item.mobileImg} className="w-full h-full" alt="bannerImg" />}
                             </div>
                         )
                     })

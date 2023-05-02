@@ -2,12 +2,17 @@
 import { Typography, } from '@mui/material';
 import Heading from '../../components/heading'
 import Toolbar from '@mui/material/Toolbar';
+import useBreakpoint from '../../hooks/useBreakpoint'
 
 const AboutUsPage = () => {
+    const { isMobile } = useBreakpoint()
+
     return (
         <div className='lg:flex justify-between items-center '>
             <div className='lg:w-[90rem] flex-1 '>
-                <img src="https://picsum.photos/600/450" width='100%' alt="about-us" />
+                {!isMobile && <img src="https://res.cloudinary.com/dhj3dggog/image/upload/v1683016310/AboutUs/a1.jpg" className="w-full h-full" alt="bannerImg" />}
+                {isMobile && <img src="https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683016310/AboutUs/a1.jpg" className="w-full h-full" alt="bannerImg" />}
+
             </div>
 
 
@@ -23,7 +28,7 @@ const AboutUsPage = () => {
                 <Toolbar />
                 <Typography>If you are an ardent football lover and an insatiable learner you definitely are on the right page. Just give us an opportunity to assist you with your goal. I am sure we can help you win the match.</Typography>
             </div>
-        </div>
+        </div >
     )
 }
 
