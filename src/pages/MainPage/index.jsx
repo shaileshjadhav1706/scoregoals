@@ -19,11 +19,14 @@ import { useState } from 'react';
 
 export default function DrawerAppBar(props) {
   const [reviewsList, setReviewList] = useState('')
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     async function fetchData() {
       const response = await getReviews();
+      setLoading(true)
       setReviewList(response)
+      setLoading(false)
     }
     fetchData();
 
@@ -102,7 +105,7 @@ export default function DrawerAppBar(props) {
 
         {/* Tsetimonials */}
         <div id="#testimonials" className='my-24'>
-          <Testimonials list={reviewsList} />
+          {loading ? <div className='text-center'>Loading ...</div> : <Testimonials list={reviewsList} />}
         </div>
 
 
