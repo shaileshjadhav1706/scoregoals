@@ -13,8 +13,21 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AboutUsPage from './About'
+import { useEffect } from 'react';
+import { getReviews } from '../../pages/services/getReviews'
+import { useState } from 'react';
 
 export default function DrawerAppBar(props) {
+  const [reviewsList, setReviewList] = useState('')
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await getReviews();
+      setReviewList(response)
+    }
+    fetchData();
+
+  }, [])
 
   const bannerItems = [
     {
@@ -71,7 +84,7 @@ export default function DrawerAppBar(props) {
         <button className='fixed bottom-5 right-7 cursor-pointer z-50'>
           <div className='w-16 h-16 rounded-full  border-white border-4'>
             <a
-              href="https://wa.me/7738540352"
+              href="https://wa.me/8286925969"
               class="whatsapp_scoregoals"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,8 +101,8 @@ export default function DrawerAppBar(props) {
         </div>
 
         {/* Tsetimonials */}
-        <div id="#testimonials" className='my-30'>
-          <Testimonials />
+        <div id="#testimonials" className='my-24'>
+          <Testimonials list={reviewsList} />
         </div>
 
 

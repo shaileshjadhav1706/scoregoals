@@ -36,7 +36,7 @@ export default function App() {
                             ACRES CLUB :- 411-B, Hemu Kalani Marg, Sindhi Society, Chembur, Mumbai, Maharashtra 400071
                         </Typography>
                         <p>
-                            Reach us at <a href="tel:123-456-7890" className="text-sky-600 underline">123-456-7890</a>
+                            Reach us at <a href="tel:123-456-7890" className="text-sky-600 underline">8286925969</a>
                         </p>
                     </div>
                 </div>

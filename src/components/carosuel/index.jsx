@@ -68,7 +68,7 @@ const Carousel = (props) => {
                     onTouchMove={handleTouchMove}
                 >
                     <div
-                        className={`carousel-content show-${show}`}
+                        className={`carousel-content show-${show} w-64 md:w-full`}
                         style={{ transform: `translateX(-${currentIndex * (100 / show)}%)` }}
                     >
                         {children}
