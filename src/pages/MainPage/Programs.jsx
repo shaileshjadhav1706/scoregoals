@@ -26,7 +26,10 @@ const Programs = () => {
 
                         </div>
                         <div className='max-w-max px-4 bg-white mt-2 rounded-lg'>
-                            <p className='flex justify-center text-2xl font-bold text-black'>Toddlers</p>
+                            <p className='flex flex-col justify-center items-center text-2xl font-bold text-black'>Toddlers
+                                <div className='text-xl'>(Upto 5 yrs)</div>
+                            </p>
+
                         </div>
 
                     </div>
@@ -43,7 +46,11 @@ const Programs = () => {
 
                         </div>
                         <div className='max-w-max px-4 bg-white mt-2 rounded-lg'>
-                            <p className='flex justify-center text-2xl font-bold text-black'>Girls</p>
+                            {/* <p className='flex justify-center text-2xl font-bold text-black'>Girls</p> */}
+                            <p className='flex flex-col justify-center items-center text-2xl font-bold text-black'>Girls
+                                <div className='text-xl'>(5-16yrs)</div>
+                            </p>
+
                         </div>
                     </div>
 
@@ -59,7 +66,11 @@ const Programs = () => {
 
                         </div>
                         <div className='max-w-max px-4 bg-white mt-2 rounded-lg'>
-                            <p className='flex justify-center text-2xl font-bold text-black'>BOYS</p>
+                            {/* <p className='flex justify-center text-2xl font-bold text-black'>BOYS</p> */}
+                            <p className='flex flex-col justify-center items-center text-2xl font-bold text-black'>Boys
+                                <div className='text-xl'>(5-16yrs)</div>
+                            </p>
+
                         </div>
 
 
