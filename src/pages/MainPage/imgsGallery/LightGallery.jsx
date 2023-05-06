@@ -19,7 +19,7 @@ const ImageGallery = ({ images }) => {
     const handleMoveNext = () => setIndex(nextIndex);
 
     return (
-        <div>
+        <>
             <Gallery
                 images={images}
                 onClick={handleClick}
@@ -40,7 +40,7 @@ const ImageGallery = ({ images }) => {
                     onMoveNextRequest={handleMoveNext}
                 />
             )}
-        </div>
+        </>
     );
 }
 

@@ -17,7 +17,7 @@ function BannerComponent({ images }) {
 
     return (
 
-        <div >
+        <div id="#carouselContainer">
             {/* Main content */}
 
             <Carousel

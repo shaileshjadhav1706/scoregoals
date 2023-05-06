@@ -26,7 +26,7 @@ const AboutUsPage = () => {
                 <Typography>We at Scoregoals aim to develop and create perfect football environment to enhance your skills through strenuous training and mentoring. We believe in providing top class professional football coaching to passionate footballers and bringing the best out of them.Our professional and licensed coaches will not only make football fun but also create pathways to enter professional football clubs.
                 </Typography>
                 <Toolbar />
-                <Typography>If you are an ardent football lover and an insatiable learner you definitely are on the right page. Just give us an opportunity to assist you with your goal. I am sure we can help you win the match.</Typography>
+                <Typography>If you are an ardent football lover and an insatiable learner you definitely are on the right page. Just give us an opportunity to assist you with your goal and we can help you to achieve the goals and win the match.</Typography>
             </div>
         </div >
     )
