@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Header from './MainPage/Header'
 import BannerComponent from './MainPage/Banner';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FooterComponent from '../components/footer';
+import Typography from '@mui/material/Typography';
+import Heading from '../components/heading'
 
 const WhyUs = () => {
     const bannerItems = [
@@ -30,27 +30,29 @@ const WhyUs = () => {
                 {/* banner */}
                 <BannerComponent images={bannerItems} />
 
-            </div>
-            <footer className=' w-full bg-black bottom-0'>
+                <div className='flex flex-col items-center mt-6'>
+                    <Heading title="TOURNAMENTS" />
 
-                <div className='flex flex-col py-5'>
-                    <div className='flex justify-evenly items-center h-full w-2/3 lg:w-1/3 m-auto'>
-                        <button className='h-10 w-10 lg:mr-10  rounded-full bg-lime-500' href='https://m.facebook.com/SJscoregoals/?ref=bookmarks'>
-                            <FacebookIcon fontSize="large" />
-                        </button>
-                        <button className='h-10 w-10 lg:mr-10  rounded-full bg-lime-500' href="https://www.linkedin.com/in/score-goals-football-academy-48970215b/">
-                            <InstagramIcon fontSize="large" />
-                        </button>
-                        <button className='h-10 w-10 lg:mr-10  rounded-full bg-lime-500' href="https://www.linkedin.com/in/score-goals-football-academy-48970215b/">
-                            <LinkedInIcon fontSize="large" />
-                        </button>
+                    <p>Register for the tournament you are willing to participate</p>
+                    <div className='flex'>
+                        <Typography>
+                            <a className='px-5 py-3 mr-10 bg-green-500 rounded-md my-8' target="_blank" href='https://forms.gle/xKyMm44dcAz5QJrw9' type="button" rel="noreferrer">
+                                <span>InHouse</span>
+                            </a>
+                        </Typography>
+
+                        <Typography>
+                            <a className='px-5 py-3 bg-green-500 rounded-md my-8' target="_blank" href='https://forms.gle/Hb2naxkB8yUckfQR8' type="button" rel="noreferrer">
+                                <span>Other Private tournaments</span>
+                            </a>
+                        </Typography>
                     </div>
-                    <div className='text-white flex justify-center text-sm mt-3 text-center'>
-                        © Photo, Inc. 2023. All rights remain with scoregoals.co.in
-                    </div>
+
                 </div>
 
-            </footer>
+                <FooterComponent />
+            </div>
+
         </>
     )
 }
