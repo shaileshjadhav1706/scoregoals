@@ -5,8 +5,6 @@ import useBreakpoint from '../../hooks/useBreakpoint'
 function BannerComponent({ images }) {
     const { isMobile } = useBreakpoint()
 
-    console.log("imageskk--", images);
-
     const getHeight = () => {
         if (!isMobile) {
             return '750px'
@@ -35,8 +33,8 @@ function BannerComponent({ images }) {
                     images.map((item, index) => {
                         return (
                             <div style={{ height: getHeight() }} key={index}>
-                                {!isMobile && <img src={item.imageUrl} className="w-full h-full" alt="bannerImg" />}
-                                {isMobile && <img src={item.mobileImg} className="w-full h-full" alt="bannerImg" />}
+                                {!isMobile && <img src={item.imageUrl} className="m-auto h-full" alt="bannerImg" />}
+                                {isMobile && <img src={item.mobileImg} className="m-auto h-full" alt="bannerImg" />}
                             </div>
                         )
                     })

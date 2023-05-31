@@ -61,12 +61,39 @@ export default function DrawerAppBar(props) {
       mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683016705/bannerImages/b6.jpg'
     }
   ]
+  const navItems = [{
+    menu: 'About',
+    link: '#about'
+  },
+  {
+    menu: 'Programs',
+    link: '#programs'
+  },
+  {
+    menu: 'Centers',
+    link: '#centers'
+  },
+  {
+    menu: 'Testimonials',
+    link: '#testimonials'
+  },
+  {
+    menu: 'Gallery',
+    link: '#gallery'
+  },
+  {
+    menu: 'Contact Us',
+    link: '#contactUsForm'
+  },
+
+  ];
+
   return (
     <>
       <div className='pb-10'>
 
         {/* header */}
-        <Header />
+        <Header navItems={navItems} />
 
         {/* banner */}
         <BannerComponent images={bannerItems} />

@@ -21,29 +21,36 @@ const WhyUs = () => {
         }
 
     ]
+
+    const navItems = [{
+        menu: 'Tournaments',
+        link: '#tournaments'
+    }]
+
     return (
         <>
             <div className='pb-10'>
                 {/* header */}
-                <Header />
+                <Header navItems={navItems} />
+
 
                 {/* banner */}
                 <BannerComponent images={bannerItems} />
 
-                <div className='flex flex-col items-center mt-6'>
+                <div className='flex flex-col items-center mt-6' id="#tournaments">
                     <Heading title="TOURNAMENTS" />
 
                     <p>Register for the tournament you are willing to participate</p>
                     <div className='flex'>
                         <Typography>
                             <a className='px-5 py-3 mr-10 bg-green-500 rounded-md my-8' target="_blank" href='https://forms.gle/xKyMm44dcAz5QJrw9' type="button" rel="noreferrer">
-                                <span>InHouse</span>
+                                <span className='font-bold text-xl'>InHouse</span>
                             </a>
                         </Typography>
 
                         <Typography>
                             <a className='px-5 py-3 bg-green-500 rounded-md my-8' target="_blank" href='https://forms.gle/Hb2naxkB8yUckfQR8' type="button" rel="noreferrer">
-                                <span>Other Private tournaments</span>
+                                <span className='font-bold text-xl'>Other Private Tournaments</span>
                             </a>
                         </Typography>
                     </div>

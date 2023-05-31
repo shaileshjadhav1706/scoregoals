@@ -11,45 +11,14 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { useHistory, Link } from 'react-router-dom';
+import { useHistory, } from 'react-router-dom';
 
 const Header = (props) => {
-  const [hrefValue, setHrefValue] = useState('')
   let history = useHistory();
-
-
-  const { window } = props;
+  const { window, navItems = [] } = props;
 
   const drawerWidth = 240;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const navItems = [{
-    menu: 'About',
-    link: '#about'
-  },
-  {
-    menu: 'Programs',
-    link: '#programs'
-  },
-  {
-    menu: 'Centers',
-    link: '#centers'
-  },
-  {
-    menu: 'Testimonials',
-    link: '#testimonials'
-  },
-  {
-    menu: 'Gallery',
-    link: '#gallery'
-  },
-  {
-    menu: 'Contact Us',
-    link: '#contactUsForm'
-  },
-
-  ];
-
 
   const handleLogo = () => {
     history.push('/')

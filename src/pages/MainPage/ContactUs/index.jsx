@@ -74,7 +74,7 @@ export default function App() {
                         <TextField value={query} onChange={(e) => setQuery(e.target.value)} id="standard-basic" label="Query" variant="standard" validators={[required]} />
 
                         <div className="mr-auto mt-60">
-                            <Button variant="contained" onClick={handleSubmit}>Submit</Button>
+                            <Button sx={{ backgroundColor: '#40C61C', fontWeight: '700' }} variant="contained" onClick={handleSubmit}>Submit</Button>
                         </div>
 
                         {isSuccess && showAlert &&
