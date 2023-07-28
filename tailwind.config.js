@@ -14,6 +14,7 @@ module.exports = {
       backgroundImage: {
         'navbar-texture': "url('../src/assets/ball.png')",
         'crowd': "url('../src/assets/crowd.jpg')",
+        'logo': "url('../src/assets/scoreLogo.png')",
         'ground': "url('../src/assets/ground.jpeg')"
       }
     },

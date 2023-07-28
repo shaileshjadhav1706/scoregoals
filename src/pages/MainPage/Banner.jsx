@@ -1,6 +1,6 @@
 import Carousel from 'react-material-ui-carousel'
 import useBreakpoint from '../../hooks/useBreakpoint'
-
+import './style.css'
 
 function BannerComponent({ images }) {
     const { isMobile } = useBreakpoint()
@@ -13,6 +13,7 @@ function BannerComponent({ images }) {
         return '600px'
     }
 
+
     return (
 
         <div id="#carouselContainer">
@@ -21,21 +22,38 @@ function BannerComponent({ images }) {
             <Carousel
                 swipe
                 indicators
-                autoPlay={false}
+                autoPlay= {false}
                 stopAutoPlayOnHover={true}
 
                 cycleNavigation={true}
-                duration={500}
+                duration={2}
                 animation="slide"
                 navButtonsAlwaysVisible
             >
                 {
                     images.map((item, index) => {
                         return (
-                            <div style={{ height: getHeight() }} key={index}>
-                                {!isMobile && <img src={item.imageUrl} className="m-auto h-full" alt="bannerImg" />}
-                                {isMobile && <img src={item.mobileImg} className="m-auto h-full" alt="bannerImg" />}
-                            </div>
+                           
+                            <>
+                       
+                                <div class="background-filter" style={{
+                                    height: getHeight() ,
+                                    backgroundSize: 'cover',
+
+                                    backgroundPosition: 'center',
+                                    backgroundImage: `url(${((isMobile && item.mobileImg )||( !isMobile && item.imageUrl ))})`
+
+                                }}>
+                                    {/* <div class="u-non-blurred" style={{
+                                        height: getHeight() ,
+
+                                    }}>
+                                    
+                                        {!isMobile && <img src={item.imageUrl} className="m-auto" alt="bannerImg" />}
+                                        {isMobile && <img src={item.mobileImg} className="m-auto" alt="bannerImg" />}
+                                    </div> */}
+                                </div>
+                            </>
                         )
                     })
                 }

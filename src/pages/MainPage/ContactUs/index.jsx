@@ -40,7 +40,6 @@ export default function App() {
 
         emailjs.send('service_xmznt29', 'template_k2rqotc', templateParams, 'SvsoPCyGjtbUxaalc')
             .then((result) => {
-                debugger
                 if (result.status == 200) {
                     setShowAlert(true)
                     setSuccess(true)

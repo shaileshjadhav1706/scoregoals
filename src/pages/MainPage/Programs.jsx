@@ -21,7 +21,7 @@ const Programs = () => {
 
                             <div
                                 class="w-64 h-64 rounded-full absolute top-0 right-0 bottom-0 left-0  overflow-hidden  bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <img src={boys} class="w-64 h-64 rounded-full object-cover" />
+                                {/* <img src={boys} class="w-64 h-64 rounded-full object-cover" /> */}
                             </div>
 
                         </div>
@@ -39,7 +39,7 @@ const Programs = () => {
 
                             <div
                                 class="w-64 h-64 rounded-full absolute top-0 right-0 bottom-0 left-0  border-4 border-black overflow-hidden  bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <img src={boys} class="w-64 h-64 rounded-full object-cover" alt="boys" />
+                                {/* <img src={boys} class="w-64 h-64 rounded-full object-cover" alt="boys" /> */}
                             </div>
 
 
@@ -61,7 +61,7 @@ const Programs = () => {
 
                             <div
                                 class="w-64 h-64 rounded-full absolute top-0 right-0 bottom-0 left-0  overflow-hidden  bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                <img src={todd} class="w-64 h-64 rounded-full object-cover" />
+                                {/* <img src={todd} class="w-64 h-64 rounded-full object-cover" /> */}
                             </div>
 
                         </div>

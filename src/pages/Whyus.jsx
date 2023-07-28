@@ -4,6 +4,8 @@ import BannerComponent from './MainPage/Banner';
 import FooterComponent from '../components/footer';
 import Typography from '@mui/material/Typography';
 import Heading from '../components/heading'
+import WhatsappComponent from './MainPage/Whatsapp';
+
 
 const WhyUs = () => {
     const bannerItems = [
@@ -19,29 +21,38 @@ const WhyUs = () => {
             imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683021910/WhyUS/IMG_3291_ayl9s7.jpg',
             mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683021910/WhyUS/IMG_3291_ayl9s7.jpg'
         }
-
     ]
 
-    const navItems = [{
-        menu: 'Tournaments',
-        link: '#tournaments'
+    const navItems = [
+        {
+            menu: 'About coaches',
+            link: '#aboutCoaches',
+        },
+        {
+            menu: 'Tournaments',
+            link: '#tournaments'
     }]
 
     return (
         <>
             <div className='pb-10'>
                 {/* header */}
-                <Header navItems={navItems} />
+                <Header navItems={navItems} basename="/why-us" />
 
 
                 {/* banner */}
-                <BannerComponent images={bannerItems} />
+                <div  id="#whyUs">
+                    <BannerComponent images={bannerItems}  />
+                </div>
 
-                <div className='flex-col md:flex mt-8 px-40 py-14' id="#tournaments">
+                <WhatsappComponent/>
+
+
+                <div className='flex-col md:flex mt-8 md:px-40 md:py-14 px-8'>
 
                     <div className='py-14 flex flex-col'>   
                         <div className='flex justify-center'> 
-                            <Heading title="Why Us" />
+                            <Heading title="WHY US" />
                         </div>
                         <div className='text-center'>
                         <Typography>
@@ -52,14 +63,24 @@ const WhyUs = () => {
                         </div>
                     </div>
 
-
-                    <div className='py-14 flex flex-col'>     
-                        <div className='flex justify-center flex-col'> 
-                        <div className='self-center'>
-                            <Heading title="TOURNAMENTS" />
-                        </div>
-                            <p className='self-center'>Register for the tournament you are willing to participate</p>
+                    <div className='flex justify-center flex-col' id="#aboutCoaches"> 
+                            <div className='self-center'>
+                                <Heading title="ABOUT COACHES"/>
+                            </div>
+                                <p className='self-center'>At SCOREGOALS coaches are professional football players playing at Mumbai District Association and also qualified licence holders.</p>
                        </div> 
+
+
+
+                    <div className='py-14 flex flex-col' id="#tournaments">     
+                        <div className='flex justify-center flex-col'> 
+                            <div className='self-center'>
+                                <Heading title="TOURNAMENTS" />
+                            </div>
+                                <p className='self-center'>Register for the tournament you are willing to participate</p>
+                       </div> 
+
+                    
                             <div className='flex-col md:flex  justify-center items-center mt-6'>
                                 <Typography className='flex justify-center'>
                                     <a className='px-5 py-3 mb-5 bg-green-500 rounded-md' target="_blank" href='https://forms.gle/xKyMm44dcAz5QJrw9' type="button" rel="noreferrer">

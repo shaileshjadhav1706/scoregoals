@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -15,13 +15,13 @@ import { useHistory, } from 'react-router-dom';
 
 const Header = (props) => {
   let history = useHistory();
-  const { window, navItems = [] } = props;
+  const { window, navItems = [],basename } = props;
 
   const drawerWidth = 240;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleLogo = () => {
-    history.push('/')
+    history.push('#carouselContainer')
   }
   const container = typeof window !== 'undefined' ? () => window().document.body : undefined;
 
@@ -40,14 +40,15 @@ const Header = (props) => {
       <Divider />
       {/* <Typography onClick={() => history.push('/why-us')}>Register</Typography> */}
       <Typography>
-        <a className='px-1 py-1 bg-white rounded-md my-8' target="_blank" href='https://forms.gle/dxuAhwdiebbZtTbX7' type="button" rel="noreferrer">
+        <a className='px-1 py-1 bg-white rounded-md my-8' target="_blank" 
+        href='https://forms.gle/dxuAhwdiebbZtTbX7' type="button" rel="noreferrer">
           <span >Register</span>
         </a>
       </Typography>
       <Typography onClick={() => history.push('/why-us')}>Why Us</Typography>
       <List>
         {navItems.map((item, index) => (
-          <ListItem key={index} component="a" href={`/#${item.link}`}>
+          <ListItem key={index} component="a" href={`${basename}#${item.link}`}>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item.menu} />
             </ListItemButton>
@@ -69,16 +70,13 @@ const Header = (props) => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    console.log("type--", element);
-    // history(link)
-
 
   }
 
 
   return (
-    // <div className='sticky top-0 bg-gradient-to-r from-green-700 to-green-500 w-full z-1000'>
-    <div className='sticky top-0 bg-navbar-texture bg-center bg-origin-content w-full z-1000 bg-yellow-200 shadow-lg shadow-yellow-500/90'>
+    <div className='py-1 sticky top-0 bg-logo bg-contain md:bg-cover bg-no-repeat	 bg-lime-400  md:bg-navbar-texture bg-center bg-origin-content w-full z-1000 shadow-lg shadow-yellow-500/90  first-letter:
+    '>
 
       <Toolbar>
         <IconButton
@@ -98,9 +96,15 @@ const Header = (props) => {
           component="div"
           sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', cursor: 'pointer' } }}
         >
-          Scoregoals
-        </Typography>
+           <div className='w-20 ml-8'>
 
+          <a href="/#carouselContainer">
+            <img src="logo.png" alt="logo" className='w-full' ></img>
+          </a> 
+        </div>
+
+        </Typography>
+       
 
         {/* menuitems on navbar */}
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>

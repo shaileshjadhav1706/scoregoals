@@ -1,5 +1,4 @@
 import * as React from 'react';
-// import CssBaseline from '@mui/material/CssBaseline';
 import Header from './Header'
 import BannerComponent from './Banner';
 import Testimonials from './Testimonials'
@@ -8,15 +7,16 @@ import Centres from './Centers';
 import { Button } from '@mui/material';
 import Gallery from './imgsGallery';
 import ContactUsForm from './ContactUs'
-import { whatsapp } from '../../assets'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AboutUsPage from './About'
 import { useEffect } from 'react';
 import { getReviews } from '../../pages/services/getReviews'
 import { useState } from 'react';
 import FooterComponent from '../../components/footer';
+import WhatsappComponent from './Whatsapp';
+
 
 export default function DrawerAppBar(props) {
   const [reviewsList, setReviewList] = useState('')
@@ -107,24 +107,11 @@ export default function DrawerAppBar(props) {
         </div>
 
         {/* PROGRAMS */}
-        <div className='my-4 lg:my-20' id="#programs">
+        <div className='my-8 lg:my-20' id="#programs">
           <Programs />
         </div>
 
-        {/* whatsapp */}
-        <button className='fixed bottom-5 right-7 cursor-pointer z-50'>
-          <div className='w-16 h-16 rounded-full  border-white border-4'>
-            <a
-              href="https://wa.me/8286925969"
-              class="whatsapp_scoregoals"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={whatsapp} alt="whatsapp" />
-            </a>
-          </div>
-        </button>
-
+        <WhatsappComponent/>
 
         {/* centers */}
         <div className='mx-9 lg:mx-40 my-10 md:my-40' id="#centers">
