@@ -107,44 +107,24 @@ export const inhouseTournaments = [
 
 export const training = [
     {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691087142/Training/IMG_8817_gkcvrf.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691087142/Training/IMG_8817_gkcvrf.jpg'
+    },
+    {
+        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1691087040/Training/IMG_3291_row1hn.jpg",
+        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1691087040/Training/IMG_3291_row1hn.jpg",
+      
+    },
+    {
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209296/Training/IMG-6414_yzdydt.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209296/Training/IMG-6414_yzdydt.jpg'
 
     },
     {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg'
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691086501/Training/IMG_2594_1_gn3iwk__1_tdarry.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691086501/Training/IMG_2594_1_gn3iwk__1_tdarry.jpg'
     },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg'
-    },
-   
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7511_dn3w8q.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7511_dn3w8q.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg'
-    },
-    {   
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg'
-    },
-    {
+   {
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209300/Training/IMG-2562_t6y8m7.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209300/Training/IMG-2562_t6y8m7.jpg'
     },
@@ -200,24 +180,47 @@ export const training = [
 
     },
     {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024182/Training/IMG_0919_jhhob5.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024182/Training/IMG_0919_jhhob5.jpg",
-        // width: 320,
-        // height: 183,
-        // caption: "37H (gratispgraphy.com)",
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024145/Training/IMG-9315_fhsecm.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024145/Training/IMG-9315_fhsecm.jpg'
     },
     {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209303/Training/IMG-0922_regwpe.jpg',
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209303/Training/IMG-0922_regwpe.jpg",
-    },]
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024081/Training/1aaa099a-e4ef-423d-9e6d-fc2974b5d467_b9hhjk.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024081/Training/1aaa099a-e4ef-423d-9e6d-fc2974b5d467_b9hhjk.jpg'
+    }
 
-export const otherTournaments = [{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498506/OtherTournaments/IMG_4951_s4gy60.heic",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498506/OtherTournaments/IMG_4951_s4gy60.heic",
-    // width: 320,
-    // height: 213,
-    // caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-},
+]
+
+export const otherTournaments = [
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg'
+    },
+
+  
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg'
+    },
+    {   
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg'
+    },
 {
     src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498507/OtherTournaments/IMG_3163_zokiqq.jpg",
     original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498507/OtherTournaments/IMG_3163_zokiqq.jpg",
