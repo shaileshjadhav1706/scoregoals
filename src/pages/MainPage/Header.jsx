@@ -47,14 +47,15 @@ const Header = (props) => {
       </Typography>
       <Typography onClick={() => history.push('/why-us')}>Why Us</Typography>
       <List>
-        {navItems.map((item, index) => (
-          <ListItem key={index} component="a" href={`${basename}#${item.link}`}>
+        {navItems.map((item, index) => {
+          return (
+          <ListItem key={index} component="a" href={`#${item.link}`}>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item.menu} />
             </ListItemButton>
           </ListItem>
 
-        ))
+        )})
         }
       </List >
     </Box >
