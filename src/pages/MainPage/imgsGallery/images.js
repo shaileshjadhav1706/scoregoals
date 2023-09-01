@@ -220,6 +220,22 @@ export const training = [
 
 export const otherTournaments = [
     {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7276_sygyq1.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7276_sygyq1.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7342_oufxtv.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7342_oufxtv.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_085607_1_wjvjbg.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_085607_1_wjvjbg.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_093625_xickku.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_093625_xickku.jpg'
+    },
+    {
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg'
     },
