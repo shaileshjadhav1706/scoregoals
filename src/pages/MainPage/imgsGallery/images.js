@@ -2,6 +2,56 @@ import { Image } from "react-grid-gallery";
 
 
 export const inhouseTournaments = [
+   
+    {
+        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
+        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
+        // width: 320,
+        // height: 190,
+        // caption: "286H (gratisography.com)",
+    },
+    {
+        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
+        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
+        // width: 320,
+        // height: 190,
+        // caption: "286H (gratisography.com)",
+    },
+    {
+        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
+        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
+        // width: 320,
+        // height: 190,
+        // caption: "286H (gratisography.com)",
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6890_rkwdj6.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6890_rkwdj6.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556297/InHouse/IMG_6836_byzq64.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556297/InHouse/IMG_6836_byzq64.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6891_g4enug.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6891_g4enug.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6838_hypzpp.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6838_hypzpp.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6837_vwvqza.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6837_vwvqza.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6808_sl2jqy.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6808_sl2jqy.jpg'
+    },
+    {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6839_kejbpb.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6839_kejbpb.jpg'
+    },
     {
         src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_4_vu8om3.jpg",
         original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_4_vu8om3.jpg",
@@ -80,28 +130,6 @@ export const inhouseTournaments = [
         // height: 190,
         // caption: "286H (gratisography.com)",
     },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-
 ];
 
 
@@ -192,6 +220,10 @@ export const training = [
 
 export const otherTournaments = [
     {
+        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg',
+        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg'
+    },
+    {
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg'
     },
@@ -213,10 +245,7 @@ export const otherTournaments = [
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg'
     },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7524_c6egzs.jpg'
-    },
+    
     {
         src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg',
         original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg'

@@ -33,10 +33,8 @@ function BannerComponent({ images }) {
                 {
                     images.map((item, index) => {
                         return (
-                           
                             <>
-                       
-                                <div class="background-filter" style={{
+                                <div class="background-filter" key={`i_${index}`} style={{
                                     height: getHeight() ,
                                     backgroundSize: 'cover',
 

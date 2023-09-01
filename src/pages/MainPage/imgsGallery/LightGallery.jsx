@@ -40,7 +40,7 @@ const ImageGallery = ({ images, style }) => {
                     onCloseRequest={handleClose}
                     onMovePrevRequest={handleMovePrev}
                     onMoveNextRequest={handleMoveNext}
-                    onImageLoadError={currentImage.src}
+                    onImageLoadError={() => currentImage.src}
                 />
             )}
         </>
