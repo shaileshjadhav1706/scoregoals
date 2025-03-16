@@ -35,31 +35,26 @@ export default function DrawerAppBar(props) {
 
   const bannerItems = [
     {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683015445/bannerImages/b4.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683015445/bannerImages/b4.jpg'
-    },
-
-    {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683014667/bannerImages/b2.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683014667/bannerImages/b2.jpg'
-
+      imageUrl:"https://res.cloudinary.com/dnb3aph3i/image/upload/v1742153143/IMG_7344_3_11zon_uv5vas.jpg",
+      mobileImg:'https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742153143/IMG_7344_3_11zon_uv5vas.jpg'
     },
     {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683017841/bannerImages/b1.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683017841/bannerImages/b1.jpg'
+      imageUrl: 'https://res.cloudinary.com/dnb3aph3i/image/upload/v1742153145/IMG_2557_1_11zon_duxdz3.jpg',
+      mobileImg:'https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742153145/IMG_2557_1_11zon_duxdz3.jpg'
     },
     {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683014980/bannerImages/b3.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683014980/bannerImages/b3.jpg'
+      imageUrl:'https://res.cloudinary.com/dnb3aph3i/image/upload/v1742113474/IMG_3291_2_11zon_1_11zon_qi1olk.jpg',
+      mobileImg:'https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742113474/IMG_3291_2_11zon_1_11zon_qi1olk.jpg'
     },
-
     {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683015619/bannerImages/b5.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683015619/bannerImages/b5.jpg'
-    }, {
-      imageUrl: 'https://res.cloudinary.com/dhj3dggog/image/upload/v1683016705/bannerImages/b6.jpg',
-      mobileImg: 'https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683016705/bannerImages/b6.jpg'
+      imageUrl:'https://res.cloudinary.com/dnb3aph3i/image/upload/v1742113465/4802c03b-496a-4bd3-8d0d-e5f1640198d2_ny2cfg.jpg',
+      mobileImg:"https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742113465/4802c03b-496a-4bd3-8d0d-e5f1640198d2_ny2cfg.jpg"
+    },
+    {
+      imageUrl:'https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114458/IMG_7358_st9bl0.jpg',
+      mobileImg:'https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742114458/IMG_7358_st9bl0.jpg'
     }
+   
   ]
   const navItems = [{
     menu: 'About',

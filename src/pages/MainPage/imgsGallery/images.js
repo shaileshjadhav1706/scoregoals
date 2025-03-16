@@ -2,319 +2,62 @@ import { Image } from "react-grid-gallery";
 
 
 export const inhouseTournaments = [
-   
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_1_zbbpcl.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_1_m0tn8e.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.24_zlluln.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6890_rkwdj6.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6890_rkwdj6.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556297/InHouse/IMG_6836_byzq64.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556297/InHouse/IMG_6836_byzq64.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6891_g4enug.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6891_g4enug.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6838_hypzpp.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6838_hypzpp.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6837_vwvqza.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6837_vwvqza.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6808_sl2jqy.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6808_sl2jqy.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6839_kejbpb.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556296/InHouse/IMG_6839_kejbpb.jpg'
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_4_vu8om3.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_4_vu8om3.jpg",
-        // width: 320,
-        // height: 174,
-        // tags: [
-        //     { value: "Nature", title: "Nature" },
-        //     { value: "Flora", title: "Flora" },
-        // ],
-        // caption: "After Rain (Jeshu John - designerspics.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.02.08_1_jibiqa.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.02.08_1_jibiqa.jpg",
-        // width: 240,
-        // height: 320,
-        // tags: [{ value: "Nature", title: "Nature" }],
-        // caption: "8H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498113/InHouse/WhatsApp_Image_2023-05-04_at_02.02.08_xt9oxr.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498113/InHouse/WhatsApp_Image_2023-05-04_at_02.02.08_xt9oxr.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_6_ydxbz0.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_6_ydxbz0.jpg",
-        // width: 320,
-        // height: 148,
-        // tags: [{ value: "People", title: "People" }],
-        // caption: "315H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_1_tbq0wm.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_1_tbq0wm.jpg",
-        // width: 320,
-        // height: 213,
-        // caption: "201H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_pgat8z.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_pgat8z.jpg",
-        alt: "Big Ben - London",
-        // width: 248,
-        // height: 320,
-        // caption: "Big Ben (Tom Eversley - isorepublic.com)",
-    },
-
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_3_vyke5w.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_3_vyke5w.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_5_g7xhaz.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498112/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_5_g7xhaz.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_2_ssi9cl.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.26_2_ssi9cl.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_qiszzr.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498111/InHouse/WhatsApp_Image_2023-05-04_at_02.01.25_qiszzr.jpg",
-        // width: 320,
-        // height: 190,
-        // caption: "286H (gratisography.com)",
-    },
-];
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114476/IMG_7432_nb0fqp.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114476/IMG_7432_nb0fqp.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114472/IMG_7058_vtk87f.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114472/IMG_7058_vtk87f.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114472/IMG_7344_jrihki.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114472/IMG_7344_jrihki.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114462/IMG_7104_kcuuw2.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114462/IMG_7104_kcuuw2.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114458/IMG_7398_ftovwt.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114458/IMG_7398_ftovwt.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114458/IMG_7358_st9bl0.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114458/IMG_7358_st9bl0.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114452/IMG_7030_ybkt1v.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114452/IMG_7030_ybkt1v.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114450/IMG_7289_lo3geb.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114450/IMG_7289_lo3geb.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114450/IMG_7031_fmzd32.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114450/IMG_7031_fmzd32.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114449/IMG_7034_vku31a.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114449/IMG_7034_vku31a.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114449/IMG_7352_azbh1m.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114449/IMG_7352_azbh1m.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114448/IMG_7412_o0aodx.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114448/IMG_7412_o0aodx.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114447/IMG_7434_bngtwg.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114447/IMG_7434_bngtwg.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114353/IMG_6893_hu1onz.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114353/IMG_6893_hu1onz.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114349/IMG_6896_bgpvn2.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114349/IMG_6896_bgpvn2.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114348/IMG_6971_wj10mb.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114348/IMG_6971_wj10mb.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6882_ujzimf.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6882_ujzimf.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_7028_sdiric.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_7028_sdiric.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6845_cv20i1.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6845_cv20i1.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6937_in7bp2.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114347/IMG_6937_in7bp2.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114346/IMG_6913_xu9uzi.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114346/IMG_6913_xu9uzi.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114345/IMG_6891_jdgzri.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114345/IMG_6891_jdgzri.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6969_pj1bki.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6969_pj1bki.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6890_inydvu.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6890_inydvu.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6976_gqyugz.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114344/IMG_6976_gqyugz.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114333/IMG_6817_11zon_mbdn9v.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114333/IMG_6817_11zon_mbdn9v.jpg" }
+  ];
 
 
-export const training = [
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691087142/Training/IMG_8817_gkcvrf.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691087142/Training/IMG_8817_gkcvrf.jpg'
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1691087040/Training/IMG_3291_row1hn.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1691087040/Training/IMG_3291_row1hn.jpg",
-      
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209296/Training/IMG-6414_yzdydt.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209296/Training/IMG-6414_yzdydt.jpg'
-
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691086501/Training/IMG_2594_1_gn3iwk__1_tdarry.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1691086501/Training/IMG_2594_1_gn3iwk__1_tdarry.jpg'
-    },
-   {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209300/Training/IMG-2562_t6y8m7.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209300/Training/IMG-2562_t6y8m7.jpg'
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497313/Training/WhatsApp_Image_2023-05-05_at_15.08.37_eh6vvu.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497313/Training/WhatsApp_Image_2023-05-05_at_15.08.37_eh6vvu.jpg",
-        // width: 320,
-        // height: 213,
-        // caption: "Time to Think (Tom Eversley - isorepublic.com)",
-    },
-    {
-       
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497313/Training/WhatsApp_Image_2023-05-05_at_15.08.41_yahqcw.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497313/Training/WhatsApp_Image_2023-05-05_at_15.08.41_yahqcw.jpg",
-        // width: 320,
-        // height: 179,
-        // tags: [
-        //     { value: "Nature", title: "Nature" },
-        //     { value: "Fauna", title: "Fauna" },
-        // ],
-        // caption: "Untitled (Jan Vasek - jeshoots.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024117/Training/IMG_4578_fdkexk.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024117/Training/IMG_4578_fdkexk.jpg",
-        // width: 320,
-        // height: 212,
-        // caption: "Boats (Jeshu John - designerspics.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497312/Training/WhatsApp_Image_2023-05-04_at_01.50.53_ipt8iq.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685497312/Training/WhatsApp_Image_2023-05-04_at_01.50.53_ipt8iq.jpg",
-        // width: 320,
-        // height: 215,
-        // tags: [{ value: "People", title: "People" }],
-        // caption: "Untitled (moveast.me)",
-    },
-
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024182/Training/IMG_0919_jhhob5.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024182/Training/IMG_0919_jhhob5.jpg",
-        // width: 226,
-        // height: 320,
-        // caption: "A photo by Matthew Wiebe. (unsplash.com)",
-    },
-    {
-        src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024152/Training/IMG_2553_1_gcuhxb.jpg",
-        original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683024152/Training/IMG_2553_1_gcuhxb.jpg",
-        alt: "Wood Glass",
-        // width: 313,
-        // height: 320,
-        // caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024145/Training/IMG-9315_fhsecm.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024145/Training/IMG-9315_fhsecm.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024081/Training/1aaa099a-e4ef-423d-9e6d-fc2974b5d467_b9hhjk.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1683024081/Training/1aaa099a-e4ef-423d-9e6d-fc2974b5d467_b9hhjk.jpg'
-    }
-
-]
-
+export const training =  [
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115335/IMG_8976_m8mrh1.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115335/IMG_8976_m8mrh1.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115333/IMG_7330_8_11zon_hdukmx.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115333/IMG_7330_8_11zon_hdukmx.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115332/IMG_7725_6_11zon_bperhn.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115332/IMG_7725_6_11zon_bperhn.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115331/IMG_0925_7_11zon_ngwfgh.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115331/IMG_0925_7_11zon_ngwfgh.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115331/IMG_0919_5_11zon_yq47lk.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115331/IMG_0919_5_11zon_yq47lk.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115330/IMG_8995_4_11zon_yceekg.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115330/IMG_8995_4_11zon_yceekg.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115329/IMG_4918_2_11zon_xb2ebn.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115329/IMG_4918_2_11zon_xb2ebn.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115328/IMG_5018_1_11zon_gohtya.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115328/IMG_5018_1_11zon_gohtya.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115328/IMG_2557_3_11zon_acetwa.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115328/IMG_2557_3_11zon_acetwa.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115327/IMG_7919_qzsafg.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115327/IMG_7919_qzsafg.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115326/a7194668-4002-443e-8ce2-53a43e1b8dc9_zy0oxb.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115326/a7194668-4002-443e-8ce2-53a43e1b8dc9_zy0oxb.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/IMG_7758_h6im7k.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/IMG_7758_h6im7k.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/eb57dcdf-61b1-4b01-906d-ce0c3f91a4a5_2_vmysqh.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/eb57dcdf-61b1-4b01-906d-ce0c3f91a4a5_2_vmysqh.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/df3d5217-7042-4c20-bdbe-67524855f948_yvgszk.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115325/df3d5217-7042-4c20-bdbe-67524855f948_yvgszk.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115324/PHOTO-2024-01-10-03-36-50_j14t06.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115324/PHOTO-2024-01-10-03-36-50_j14t06.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115323/E2E59A1E-9464-47CD-85B4-9AA82FF07D5E_zkqqr6.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742115323/E2E59A1E-9464-47CD-85B4-9AA82FF07D5E_zkqqr6.jpg" }
+  ]
 export const otherTournaments = [
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7276_sygyq1.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7276_sygyq1.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7342_oufxtv.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_7342_oufxtv.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_085607_1_wjvjbg.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_085607_1_wjvjbg.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_093625_xickku.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693587522/OtherTournaments/IMG_20191223_093625_xickku.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1693556757/OtherTournaments/IMG-7511_aqacyw.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/85708d7d-cdd0-4ee1-9e9d-1f2f94e9e567_x6dcy7.jpg'
-    },
-
-  
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1690209290/Training/54922AAE-E570-4D04-8C6F-BF8106101CA9_ucitjr.jpg'
-    },
-    {   
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-7515_fnnfej.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/328F6E41-80FF-401B-B9B4-9299715C0E82_jconsq.jpg'
-    },
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209290/Training/IMG-3657_owzywh.jpg'
-    },
-    
-    {
-        src:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg',
-        original:'https://res.cloudinary.com/dhj3dggog/image/upload/v1690209291/Training/IMG-7532_rywmdi.jpg'
-    },
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498507/OtherTournaments/IMG_3163_zokiqq.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498507/OtherTournaments/IMG_3163_zokiqq.jpg",
-    // width: 320,
-    // height: 194,
-    // caption: "Old Barn (Tom Eversley - isorepublic.com)",
-},
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498504/OtherTournaments/IMG_3196_dzsdit.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498504/OtherTournaments/IMG_3196_dzsdit.jpg",
-    alt: "Cosmos Flower",
-    // width: 320,
-    // height: 213,
-    // caption: "Cosmos Flower Macro (Tom Eversley - isorepublic.com)",
-},
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498504/OtherTournaments/EDB3F7C1-626C-470E-89A3-D75E05B3B52F_p8baxa.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498504/OtherTournaments/EDB3F7C1-626C-470E-89A3-D75E05B3B52F_p8baxa.jpg",
-    // width: 271,
-    // height: 320,
-    // caption: "Orange Macro (Tom Eversley - isorepublic.com)",
-},
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498499/OtherTournaments/IMG_5702_bohzqu.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498499/OtherTournaments/IMG_5702_bohzqu.jpg",
-    // width: 320,
-    // height: 213,
-    // tags: [
-    //     { value: "Nature", title: "Nature" },
-    //     { value: "People", title: "People" },
-    // ],
-    // caption: "Surfer Sunset (Tom Eversley - isorepublic.com)",
-},
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498496/OtherTournaments/E6509B09-3F5C-4392-9648-605B4EFB65B3_ragqao.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1685498496/OtherTournaments/E6509B09-3F5C-4392-9648-605B4EFB65B3_ragqao.jpg",
-    // width: 320,
-    // height: 213,
-    // tags: [
-    //     { value: "People", title: "People" },
-    //     { value: "Sport", title: "Sport" },
-    // ],
-    // caption: "Man on BMX (Tom Eversley - isorepublic.com)",
-},
-{
-    src: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683021279/OtherTournaments/4802c03b-496a-4bd3-8d0d-e5f1640198d2_tl3g5g.jpg",
-    original: "https://res.cloudinary.com/dhj3dggog/image/upload/v1683021279/OtherTournaments/4802c03b-496a-4bd3-8d0d-e5f1640198d2_tl3g5g.jpg",
-    // width: 320,
-    // height: 213,
-    // caption: "Ropeman - Thailand (Tom Eversley - isorepublic.com)",
-},
-]
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114975/IMG_9861_hde341.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114975/IMG_9861_hde341.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114974/IMG_9857_xxleh1.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114974/IMG_9857_xxleh1.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114973/IMG_3163_yr1dvf.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114973/IMG_3163_yr1dvf.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114973/IMG_9710_x2iqwu.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114973/IMG_9710_x2iqwu.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114972/C7559487-FE36-4F10-8C4A-4C74FD7DF4FF_r4earf.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114972/C7559487-FE36-4F10-8C4A-4C74FD7DF4FF_r4earf.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/8fdfc2fe-c051-4bda-af97-caa9c9149d96_og5goh.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/8fdfc2fe-c051-4bda-af97-caa9c9149d96_og5goh.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/IMG_7533_mhwea7.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/IMG_7533_mhwea7.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/IMG_5702_jmsp9f.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114971/IMG_5702_jmsp9f.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114970/ceb71b24-efce-49d7-b584-5c9a45f76166_q7vtgl.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114970/ceb71b24-efce-49d7-b584-5c9a45f76166_q7vtgl.jpg" },
+    { src: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114970/IMG_7525_ha1g0e.jpg", original: "https://res.cloudinary.com/dnb3aph3i/image/upload/v1742114970/IMG_7525_ha1g0e.jpg" }
+  ];

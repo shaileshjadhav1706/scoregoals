@@ -10,8 +10,8 @@ const AboutUsPage = () => {
     return (
         <div className='lg:flex justify-between items-center '>
             <div className='lg:w-[90rem] flex-1 '>
-                {!isMobile && <img src="https://res.cloudinary.com/dhj3dggog/image/upload/v1683016310/AboutUs/a1.jpg" className="w-full h-full" alt="bannerImg" />}
-                {isMobile && <img src="https://res.cloudinary.com/dhj3dggog/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1683016310/AboutUs/a1.jpg" className="w-full h-full" alt="bannerImg" />}
+                {!isMobile && <img src="https://res.cloudinary.com/dnb3aph3i/image/upload/v1742153599/IMG_7446_11zon_q5efpg.jpg" className="w-full h-full" alt="bannerImg" />}
+                {isMobile && <img src="https://res.cloudinary.com/dnb3aph3i/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1742153599/IMG_7446_11zon_q5efpg.jpg" className="w-full h-full" alt="bannerImg" />}
 
             </div>
 
